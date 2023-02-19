@@ -1,0 +1,6 @@
+function litres(time) {
+  let floor = Math.floor(time)
+  let liters = Math.floor(floor / 2)
+  console.log(liters)
+  return liters
+}
