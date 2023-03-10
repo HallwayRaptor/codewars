@@ -1,0 +1,7 @@
+function past(h, m, s){
+  const htm = h * 60 * 60 * 1000
+  const mtm = m * 60 * 1000
+  const stm = s * 1000
+  const total = htm + mtm + stm
+  return total
+}
